@@ -1,20 +1,16 @@
-# Tutorial-6-Embedded-Systems-and-IoT-Firebase
-# Tutorial-7-Embedded-Systems-and-IoT-SQL (MariaDB)
+# Tutorial-5.2-Embedded-Systems-and-IoT-Firebase & SQL (MariaDB)
 
 <h2>การส่งค่าเข้าฐานข้อมูล</h2>
-
 <h3>Objectives</h3>
 
 1. ส่งค่าเข้าฐานข้อมูล Firebase ได้
 2. ส่งค่าเข้าฐานข้อมูล MySQL ได้
 
-
-
 <h3>Hardware</h3>
 
-1.	DHT Sensor หรือ Ultrasonic         1	        
-2.	LED		                          x
-4.	Breadboard                        1
+1.	เซ็นเซอร์ตามต้องการ        	      1
+2.	ESP32                           1
+3.	Breadboard                      1
 5.	Computer	                      1
 6.	microUSB	                      1 
 
@@ -24,7 +20,7 @@
 --------------------
 <h3>Instruction</h3>
 
-<h2>Lab 6 ส่งค่าขึ้นฐานข้อมูล Firebase</h2>
+<h2>ส่งค่าขึ้นฐานข้อมูล Firebase</h2>
 
 1. ตั้งค่า Firebase โดยทำตามขั้นตอนในลิงค์นี้ https://docs.google.com/document/d/1LjWkR9mvH9aqHAJQuuZbgV3OkncwM3AxFvffaiNQIKk/edit?usp=sharing
 2. คัดลอกโค้ดในโฟลเดอร์ lab6 > Lab_6.ino
@@ -43,10 +39,10 @@
 
 --------------------
 
-<h2>Lab 7 ส่งค่าขึ้นฐานข้อมูล SQL</h2>
+<h2>ส่งค่าขึ้นฐานข้อมูล SQL</h2>
 
-1. ดูวิธีการสร้าง database ที่ลิงค์ https://www.youtube.com/watch?v=F5T8isU13bU (ดูถึงแค่นาทีที่ 20) เนื้อหาในคลิปจะเป็นการใช้งาน 000webhost แต่ให้นักศึกษาใช้ infinityFree แทน
-2. เขียนโปรแกรมฝั่ง cloud โดยดาวน์โหลดไฟล์ con_db.php, data_receive.php ได้ที่โฟลเดอร์ lab7
+1. ดูวิธีการสร้าง database ที่ลิงค์ https://www.youtube.com/watch?v=F5T8isU13bU (ดูถึงแค่นาทีที่ 20) เนื้อหาในคลิปจะเป็นการใช้งาน 000webhost แต่ให้นักศึกษาใช้ infinityFree (หรือ host อื่นๆ) แทน
+2. เขียนโปรแกรมฝั่ง cloud โดยดาวน์โหลดไฟล์ con_db.php, data_receive.php ได้ที่โฟลเดอร์
 3. นำไฟล์ con_db.php และ data_receive.php ไปใส่ไว้ในโฟลเดอร์ htdocs บน infinityFree
 4. เปลี่ยนค่าการเชื่อมต่อข้อมูลในไฟล์ con_db.php ให้เป็นข้อมูลของตัวเอง
 5. เขียนโปรแกรมฝั่ง esp32 โดยดาวน์โหลดไฟล์ lab_7.ino ได้ที่โฟลเดอร์ lab7
